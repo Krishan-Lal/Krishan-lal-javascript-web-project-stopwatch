@@ -3,5 +3,19 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    font-family: 'Lato', sans-serif;
 }
+
+.card{
+    opacity: 90%;
+}
+
+#showIntro{
+    animation: countStarter 1s infinite;
+}
+
+@keyframes countStarter 
+{
+    50% {
+        transform: scale(3.01);
+    }
+  }
